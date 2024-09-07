@@ -1,4 +1,4 @@
-### My portofolio to demonstrate my work
+### My portfolio to demonstrate my work
 
 ### Link: https://mosalah-portofolio.vercel.app/
 
