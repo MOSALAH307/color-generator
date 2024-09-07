@@ -2,12 +2,12 @@ import { FaHtml5, FaJs, FaReact, FaCss3 } from "react-icons/fa";
 import { SiTailwindcss, SiDaisyui } from "react-icons/si";
 import { TbBrandCpp } from "react-icons/tb";
 import backroads from "./assets/backroads.png";
-import colorGenerator from "./assets/color-generator.png";
 import comfyStore from "./assets/comgy-store.png";
-import foodOrder from "./assets/food-order.png";
-import menu from "./assets/menu.png";
 import tracker from "./assets/tracker.png";
-import unsplash from "./assets/unsplash.png";
+import SKFH from "./assets/SKFH.jpeg"
+import Mubasher from "./assets/Mubasher.jpeg"
+import jobster from "./assets/jobster.jpeg"
+import Muharah from "./assets/Muharah.jpeg"
 
 export const links = [
   { id: 1, href: "#home", text: "home" },
@@ -72,37 +72,35 @@ export const projects = [
   },
   {
     id: 2,
-    img: foodOrder,
-    url: "https://food-order-app-wheat-one.vercel.app/",
-    github: "https://github.com/MOSALAH307/food-order-app",
-    title: "food order app",
-    text: "Simple page to order food online with menu displayed",
+    img: SKFH,
+    url: "https://skfh.top2top.net/",
+    github: "https://github.com/MOSALAH307/",
+    title: "SKFH site ",
+    text: "Build the website for a big governmental Saudi organization.",
   },
   {
     id: 3,
-    img: colorGenerator,
-    url: "https://color-generator-wine.vercel.app/",
-    github:
-      "https://github.com/MOSALAH307/14-react-fundamentals-projects/tree/main/09-color-generator",
-    title: "Color Generator",
-    text: "Simple page to generate different color degrees",
+    img: Muharah,
+    url: "https://almaharh.com/",
+    github: "https://github.com/MOSALAH307/",
+    title: "Al-Mouhrah site",
+    text: "Build, Design the site and the dashboard ",
   },
   {
     id: 4,
-    img: unsplash,
-    url: "https://unsplash-images-eight.vercel.app/",
-    github: "https://github.com/MOSALAH307/unsplash-images",
-    title: "Unsplash Images",
-    text: "Simple page to display images upon user search",
+    img: Mubasher,
+    url: "https://mountasher.online/",
+    github: "https://github.com/MOSALAH307/",
+    title: "Mubasher site ",
+    text: "Build, Design the site and the dashboard ",
   },
   {
     id: 5,
-    img: menu,
-    url: "https://menu-orpin-three.vercel.app/",
-    github:
-      "https://github.com/MOSALAH307/14-react-fundamentals-projects/tree/main/05-menu",
-    title: "Restaurant Menu",
-    text: "Simple page to display different items in a reastaurant menu",
+    img: jobster,
+    url: "https://jobster-app-with-react.vercel.app/",
+    github: "https://github.com/MOSALAH307/jobster-app-with-react",
+    title: "jobster dashboard",
+    text: "job applications dashboard",
   },
   {
     id: 6,
